@@ -16,7 +16,7 @@ CocoaPods, see the Places Swift SDK for iOS
 -   An app targeting iOS 15 or later
 -   A Google Maps Platform
     [project](https://developers.google.com/maps/documentation/places/ios-sdk/cloud-setup)
-    with the Places API enabled.
+    with the "Places API (New)" service enabled.
 -   An
     [API key](https://developers.google.com/maps/documentation/places/ios-sdk/get-api-key)
     associated with the project above.
@@ -46,13 +46,13 @@ CocoaPods, see the Places Swift SDK for iOS
 
 See samples demonstrating use of the Places Swift SDK for iOS on
 [developers.google.com](https://developers.google.com/maps/documentation/places/ios-sdk/code-samples)
-or on [GitHub](https://github.com/googlemaps-samples/maps-sdk-for-ios-samples).
+or on [GitHub](https://github.com/googlemaps-samples/ios-places-sdk-samples).
 
 ## Documentation
 
 Documentation for the Places Swift SDK for iOS is available as
 [guides](https://developers.google.com/maps/documentation/places/ios-sdk) and
-[reference documentation](https://developers.google.com/maps/documentation/places/ios-sdk/reference).
+[reference documentation](https://developers.google.com/maps/documentation/places/ios-sdk/reference/overview).
 
 ## Contributing
 
