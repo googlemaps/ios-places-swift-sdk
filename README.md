@@ -1,5 +1,3 @@
-<!--* freshness: { exempt: true } *-->
-
 # Google Places Swift SDK For iOS Swift package
 
 ## Description
