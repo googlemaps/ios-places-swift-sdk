@@ -1,14 +1,12 @@
-<!--* freshness: { exempt: true } *-->
-
 # Google Places Swift SDK For iOS Swift package
 
 ## Description
 
 This repository contains the Swift package for the
-[Places Swift SDK for iOS](https://developers.google.com/maps/documentation/places/ios-sdk).
+[Places Swift SDK for iOS](https://developers.google.com/maps/documentation/places/ios-sdk/reference/swift/Classes).
 For additional methods of installing the Places Swift SDK for iOS including
 CocoaPods, see the Places Swift SDK for iOS
-[documentation](https://developers.google.com/maps/documentation/places/ios-sdk/config).
+[documentation](https://developers.google.com/maps/documentation/places/ios-sdk/config#googleplacesswift).
 
 ## Requirements
 
@@ -18,7 +16,7 @@ CocoaPods, see the Places Swift SDK for iOS
     [project](https://developers.google.com/maps/documentation/places/ios-sdk/cloud-setup)
     with the "Places API (New)" service enabled.
 -   An
-    [API key](https://developers.google.com/maps/documentation/places/ios-sdk/get-api-key)
+    [API key](https://developers.google.com/maps/documentation/places/ios-sdk/config#googleplacesswift_1)
     associated with the project above.
 
 ## Installation
@@ -39,20 +37,19 @@ CocoaPods, see the Places Swift SDK for iOS
     option.
 
 4.  Follow the
-    [instructions](https://developers.google.com/maps/documentation/places/ios-sdk/config#get-an-api-key)
+    [instructions](https://developers.google.com/maps/documentation/places/ios-sdk/config#googleplacesswift_1)
     to add your API key to your app.
 
 ## Sample App
 
 See samples demonstrating use of the Places Swift SDK for iOS on
-[developers.google.com](https://developers.google.com/maps/documentation/places/ios-sdk/code-samples)
-or on [GitHub](https://github.com/googlemaps-samples/ios-places-sdk-samples).
+[developers.google.com](https://developers.google.com/maps/documentation/places/ios-sdk/code-samples).
 
 ## Documentation
 
 Documentation for the Places Swift SDK for iOS is available as
 [guides](https://developers.google.com/maps/documentation/places/ios-sdk) and
-[reference documentation](https://developers.google.com/maps/documentation/places/ios-sdk/reference/overview).
+[reference documentation](https://developers.google.com/maps/documentation/places/ios-sdk/reference/swift/Classes).
 
 ## Contributing
 

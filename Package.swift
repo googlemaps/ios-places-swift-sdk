@@ -1,6 +1,6 @@
 // swift-tools-version: 5.5
 /*
- * Copyright 2022 Google LLC
+ * Copyright 2024 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,22 +18,22 @@
 import PackageDescription
 
 let package = Package(
-  name: "GooglePlacesSwift", platforms: [.iOS(.v14)],
-  products: [.library(name: "google_places_swift", targets: ["google_places_swiftTarget"])],
-  dependencies: [.package(url: "https://github.com/googlemaps/ios-places-sdk", from: "8.5.0")],
+  name: "GooglePlacesSwift", platforms: [.iOS(.v15)],
+  products: [.library(name: "GooglePlacesSwift", targets: ["PlacesSwift"])],
+  dependencies: [.package(url: "https://github.com/googlemaps/ios-places-sdk", from: "9.0.0")],
   targets: [
     .binaryTarget(
-      name: "google_places_swift",
+      name: "GooglePlacesSwift",
       url: "https://dl.google.com/geosdk/swiftpm/0.1.0/google_places_swift.xcframework.zip",
-      checksum: "eeb48d435403871edf2896209ccaee542236a4479ceae0b667cec9b3da9be171"
+      checksum: "cc0858f9bbf8ae16273519c5fedf6cd83ad8284c531739e273dd7f19ce528bf7"
     ),
     .target(
-      name: "google_places_swiftTarget",
+      name: "PlacesSwift",
       dependencies: [
-        "google_places_swift",
+        "GooglePlacesSwift",
         .product(name: "GooglePlaces", package: "ios-places-sdk"),
       ],
-      path: "GooglePlacesSwift",
+      path: "PlacesSwift",
       sources: ["Empty.swift"],
       resources: [.copy("Resources/GooglePlacesSwiftResources/GooglePlacesSwift.bundle")],
       publicHeadersPath: "Sources"
