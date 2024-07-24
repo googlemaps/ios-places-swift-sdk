@@ -43,7 +43,8 @@ CocoaPods, see the Places Swift SDK for iOS
 ## Sample App
 
 See samples demonstrating use of the Places Swift SDK for iOS on
-[developers.google.com](https://developers.google.com/maps/documentation/places/ios-sdk/code-samples).
+[developers.google.com](https://developers.google.com/maps/documentation/places/ios-sdk/code-samples)
+or at https://github.com/googlemaps-samples/ios-places-sdk-samples.
 
 ## Documentation
 
