@@ -19,16 +19,16 @@ import PackageDescription
 
 let package = Package(
   name: "GooglePlacesSwift", platforms: [.iOS(.v15)],
-  products: [.library(name: "GooglePlacesSwift", targets: ["PlacesSwift"])],
-  dependencies: [.package(url: "https://github.com/googlemaps/ios-places-sdk", from: "9.0.0")],
+  products: [.library(name: "GooglePlacesSwift", targets: ["GooglePlacesSwiftTarget"])],
+  dependencies: [.package(url: "https://github.com/googlemaps/ios-places-sdk", from: "9.1.0")],
   targets: [
     .binaryTarget(
       name: "GooglePlacesSwift",
       url: "https://dl.google.com/geosdk/swiftpm/0.1.0/google_places_swift.xcframework.zip",
-      checksum: "cc0858f9bbf8ae16273519c5fedf6cd83ad8284c531739e273dd7f19ce528bf7"
+      checksum: "0b1daed4bff0d629fe9f939577b16a985ccbb8af9df42d5682ff09a22cf619b4"
     ),
     .target(
-      name: "PlacesSwift",
+      name: "GooglePlacesSwiftTarget",
       dependencies: [
         "GooglePlacesSwift",
         .product(name: "GooglePlaces", package: "ios-places-sdk"),

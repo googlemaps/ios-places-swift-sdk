@@ -24,7 +24,7 @@ CocoaPods, see the Places Swift SDK for iOS
 1.  Follow the instructions for
     [adding package dependencies to your app in Xcode](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app).
 
-2.  In the "Enter Package URL" field, enter this GitHub repository:
+2.  In the "Enter Package URL" field, enter the URL for this GitHub repository:
 
     ```
     https://github.com/googlemaps/ios-places-swift-sdk
