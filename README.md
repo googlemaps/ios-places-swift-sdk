@@ -2,15 +2,33 @@
 
 # Google Places Swift SDK For iOS Swift package
 
-## Migration Notice
+## Description
 
-The latest preview version of the GooglePlacesSwift Swift Package has been migrated to the same GitHub repository as GooglePlaces. Please use the new GitHub repository, https://github.com/googlemaps/ios-places-sdk, to access the latest versions of GooglePlaces and GooglePlacesSwift.   
+This repository used to contain the Swift package for the
+[Places Swift SDK for iOS](https://developers.google.com/maps/documentation/places/ios-sdk).
 
-This repository will not be updated for future releases of GooglePlacesSwift.  
+> [!IMPORTANT] The Swift package for the Places Swift SDK for iOS has moved.
+> Please use https://github.com/googlemaps/ios-places-sdk to install the Swift
+> package dependency from now on.
 
-**Note:** We are NOT dropping support for GooglePlacesSwift. We are committed to supporting it. This change consolidates the Swift Packages for these two products to make it easier to integrate either or both.
+For full instructions on installing the Swift package dependency, see the [documentation](https://developers.google.com/maps/documentation/places/ios-sdk/config).
 
-If you have already added GooglePlacesSwift as a Swift Package with the https://github.com/googlemaps/ios-places-swift-sdk URL, please remove it. Use https://github.com/googlemaps/ios-places-sdk as the URL for the Swift Package and, once prompted to add a package product, choose either GooglePlace, GooglePlacesSwift, or both. Please visit https://developers.google.com/maps/documentation/places/ios-sdk/google-places-swift to learn more about GooglePlacesSwift.
+### Migration from `GooglePlacesSwift` (Preview) v0.2.0 and earlier to the new package dependency.
+
+If you have been using `GooglePlacesSwift` through this different GitHub
+repository,
+[delete that package dependency in Xcode](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app#Delete-a-package-dependency),
+then follow the [installation instructions](#installation) to add the package
+dependency from `https://github.com/googlemaps/ios-places-sdk`, choosing version
+`9.2.0` or later.
+
+This time, on the **Choose Package Products** window, add the
+`GooglePlacesSwift` library to your project's target.
+
+## Contributing
+
+External contributions are not accepted for this repository, per the
+[Contributing guide](https://github.com/googlemaps/ios-places-sdk/blob/main/CONTRIBUTING.md).
 
 ## Terms of Service
 
