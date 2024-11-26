@@ -15,7 +15,7 @@ For full instructions on installing the Swift package dependency, see the [docum
 
 ### Migration from `GooglePlacesSwift` (Preview) v0.2.0 and earlier to the new package dependency.
 
-If you have been using `GooglePlacesSwift` through this different GitHub
+If you have been using `GooglePlacesSwift` through this GitHub
 repository,
 [delete that package dependency in Xcode](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app#Delete-a-package-dependency),
 then follow the [installation instructions](#installation) to add the package
@@ -24,6 +24,8 @@ dependency from `https://github.com/googlemaps/ios-places-sdk`, choosing version
 
 This time, on the **Choose Package Products** window, add the
 `GooglePlacesSwift` library to your project's target.
+
+**Note:** If you try to add `GooglePlacesSwift` from this repository, you will see the following error message: `Failed to resolve dependencies Dependencies could not be resolved because no versions of 'ios-places-swift-sdk' match the requirement 0.2.0 and root depends on 'ios-places-swift-sdk' 0.2.0.`
 
 ## Contributing
 
